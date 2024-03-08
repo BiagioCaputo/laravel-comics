@@ -1,0 +1,52 @@
+.blu-separator {
+    height: 80px;
+    background-color: #0282F9;
+
+}
+
+.upper-comic-details {
+    display: flex;
+    gap: 30px;
+    padding: 40px 0;
+
+    .comic-generics {
+        flex-basis: 70%;
+
+        h1 {
+            color: #04508f;
+            font-size: 2.5rem;
+        }
+
+        .availability {
+            display: flex;
+            color: white;
+            background: rgb(6, 153, 6);
+            margin: 20px 0;
+
+            .availability-left {
+                flex-basis: 70%;
+                display: flex;
+                justify-content: space-between;
+                padding: 15px;
+                border-right: 1px solid black;
+                color: lightgrey;
+
+                span {
+                    color: white;
+                }
+            }
+
+
+            .availability-right {
+                padding: 15px 20px;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
+        p {
+            line-height: 1.8rem;
+        }
+
+    }
+}
