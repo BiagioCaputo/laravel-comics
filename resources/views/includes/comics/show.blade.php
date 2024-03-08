@@ -5,6 +5,6 @@
 
 @section('main-content')
 
-<?php dd($comics)    ?>
+<?php dd($comics)?>
 
 @endsection

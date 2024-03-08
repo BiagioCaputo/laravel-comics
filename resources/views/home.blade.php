@@ -11,10 +11,12 @@
                     @foreach($comics as $comic)
                     <div class="cards-col">
                         <div class="comic-card">
-                            <figure>
-                                <img src="{{ $comic['thumb']}}" alt="{{ $comic['title']}}">
-                            </figure>
-                            <h4>{{ $comic['title']}}</h4>
+                            <a href="{{ route('comic', $loop->index) }}">
+                                <figure>
+                                    <img src="{{ $comic['thumb']}}" alt="{{ $comic['title']}}">
+                                </figure>
+                                <h4>{{ $comic['title']}}</h4>
+                            </a>
                         </div>
                     </div>
                     @endforeach
