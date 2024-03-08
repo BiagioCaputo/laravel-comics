@@ -4,7 +4,15 @@
 
 
 @section('main-content')
-<div class="blu-separator"></div>
+<div class="blu-separator">
+    <div class="container">
+        <figure class="comic-figure">
+            <img src=" {{ $comics['thumb'] }}" alt="adv">
+            <div class="comic-type">{{ $comics['type'] }}</div>
+            <div class="vg">View gallery</div>
+        </figure>
+    </div>
+</div>
 <section id="comic-details" class="container">
     <div class="upper-comic-details">
         <div class="comic-generics">
