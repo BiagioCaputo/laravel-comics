@@ -8,7 +8,7 @@
             <div id="current-series" class="blue-spacing">CURRENT SERIES</div>
             <div class="cards-container">
                 <div class="cards-row">
-                    @foreach(config('comics') as $comic)
+                    @foreach($comics as $comic)
                     <div class="cards-col">
                         <div class="comic-card">
                             <figure>
