@@ -3,7 +3,6 @@
 @section('title', 'Comics')
 
 @section('main-content')
-    <div class="jumbotron"></div>
     <div class="main-box">
         <div class="container">
             <div id="current-series" class="blue-spacing">CURRENT SERIES</div>

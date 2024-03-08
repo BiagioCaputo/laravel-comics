@@ -28,3 +28,11 @@ header {
         color: #0282F9;
     }
 }
+
+.jumbotron {
+    height: 380px;
+    width: 100%;
+    background-image: url(../../public/images/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -7,7 +7,9 @@
             <ul>
                 @foreach (config('header_menu') as $link)
                 <li>
-                    <a href="{{ route($link['route_name']) }}">{{ $link['text'] }}</a>
+                    <a href="{{ route($link['route_name']) }}" class="{{Route::is($link['route_name']) ? 'active' : ''}}">
+                        {{ $link['text'] }}
+                    </a>
                 </li>
                 @endforeach
             </ul>
@@ -15,3 +17,5 @@
 
     </div>
 </header>
+
+<div class="jumbotron"></div>
